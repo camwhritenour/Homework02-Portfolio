@@ -1,0 +1,161 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    
+}
+
+.header {
+    display: flex;
+}
+
+.header h1 {
+    display: flex;
+    width: 30%;
+    height: 90px;
+    color: black;
+    background-color: lightblue;
+    margin-top: 5px;
+    font-size: 50px;
+    justify-content: center;
+
+}
+
+nav {
+    margin-left: 20%;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.header nav ul li {
+display: inline-block;
+height: 60px;
+margin: 0px;
+align-items: center;
+}
+
+a {
+color: lightblue;
+text-decoration: underline;
+}
+
+/* .sidebar {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+} */
+
+article h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    width: 150px;
+}
+
+.about-me {
+display: flex;
+gap: 30px;
+}
+
+.about-bio {
+    border-left: 4px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 70%;
+    font-size: 20px;
+}
+
+.work {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.work-content {
+    border-left: 4px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.work-content section {
+    position: relative;
+}
+
+.main-project {
+    padding: 5px;
+}
+
+.main-project h3 {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    
+}
+
+.sub-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sub-projects section {
+    width: 48%;
+    padding: 5px;
+}
+
+.sub-projects section img {
+ width: 100%;
+
+}
+
+.sub-projects section h3 {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.contact-me {
+    display: flex;
+
+}
+.contact-me-navbar {
+    border-left: 4px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.content {
+
+}
+
+.header-img {
+    background-image: url(./images/header.png);
+    height: 150px;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-img h2 {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 75%;
+    font-size: 35px;
+    color: black;
+    background-color: lightblue;
+}
+
+.footer {
+
+}
