@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="assets\style.css">
-    <title>website</title>
+    <title>Cam Whritenour's Portfolio</title>
 </head>
 
 <body>
@@ -87,7 +87,9 @@
                     mental blocks and enrolled in a Coding Bootcamp through Rice University.
                 </p>
                 </article>
+                <hr>
         </section>
+
 
         <section class="work">
             <article>
@@ -96,7 +98,10 @@
             <article class="work-content">
                 <section class="main-project">
                     <h3>Main Project</h3>
-                    <img src="assets\images\Project1.png">
+                    <img src="assets\images\foodr.png" class ="image">
+                    <div class="overlay1">
+                        <div class="overlay-text" id="prj1">Click Here to Access</div>
+                    </div>
                 </section>
                 <section class="sub-projects">
                     <section>
@@ -117,6 +122,7 @@
                     </section>
                 </section>
             </article>
+
         </section>
 
         <section class="contact-me">
@@ -124,12 +130,12 @@
                 <h1 id="contact-me">Contact Me</h1>
             </article>
             <article class="contact-me-navbar" >
-               <section>
-                 <a href="" >whritenourc@outlook.com</a>
+               <section id="btn-container">
+                 <button class="btns" id="emailbtn">whritenourc@outlook.com</button>
                  
-                 <a href="https://github.com/camwhritenour" >GitHub</a>
+                 <button class="btns" id="gitbtn">My Git Hub</button>
 
-                 <a href="https://www.linkedin.com/in/cameron-whritenour/" >linkedIn</a>
+                 <button class="btns" id="linkedbtn">My LinkedIn</button>
                </section>
             </article>
         </section>
@@ -144,6 +150,8 @@
         </p>
     </footer>
     <!-- This is the footer End.-->
+    <script src="assets/script.js"></script>
+
 </body>
 
 </html>

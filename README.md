@@ -1,65 +1,57 @@
-# Homework02-Portfolio
+# Homework03-Password-Generator
 
 ## Description
 
-Refactoring existing code (improving it without changing what it does) to meet a certain set of standards or to implement a new technology is a common task for front-end and junior developers. For this particular Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible.
+This week's Challenge requires you to create an application that an employee can use to generate a random password based on criteria they've selected. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. This week's coursework will teach you all the skills you need to succeed in this assignment.
 
 ## User Story
 
 ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
 ```
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
 ```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN asked for character types to include in the password
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Corrections Made
 
 ```
-Created a Header and Navbar with my name and navigation functionality
-Created an About Me section with a bio
-Created a Work Section that includes a main project and 4 sub projects
-Created a Contact Me section with links to my email, github, and linkedin
-Added a footer at the bottom to close out the website
-Added CSS to structure the Webpage in a format that is appeasing to the eye
-Added Screenshot of my previous project
+Created lists of variables with arrays to list out all the characters
+Created a function that checks for the length and conditions of each variable
+then creates a password using that criteria
+Created a function that displays the result of the password function on the screen
 ```
+
 ## To Be Added
 
 ```
-Java Script Functionality
-Complete more projects to add to the website
-Add Resume
-Fix Contact me section
-Clean up the code
-Make comments to the code
-Add Media Queries for resizing of the webpage
+
 ```
 
 ## Screenshots
 
 The following image shows the web application's appearance and functionality:
 
-![The Portfolio page includes the heading, nav bar and the about me section.](assets\images\WebsiteSnap.png)
+![This includes the main card with the generate password button and a generated password.](.\assets\passgen.png)
 
 ## Credits
 
@@ -67,4 +59,4 @@ Myself Cameron Whritenour https://github.com/camwhritenour
 
 ## Link to Website
 
-https://camwhritenour.github.io/Homework02-Portfolio
+https://camwhritenour.github.io/Homework03-Password-Generator
